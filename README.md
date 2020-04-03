@@ -6,6 +6,7 @@
 ## Overview 
 This project takes a persons date,month and year of birth and returns the day of the week the user was born
 by assigning one an Akan Name.
+Written in HTML,CSS,Javascript
 
 ## link
 `https://ko3ch.github.io/DYoWK/`
