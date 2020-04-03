@@ -8,7 +8,7 @@ This project takes a persons date,month and year of birth and returns the day of
 by assigning one an Akan Name.
 
 ## link
-
+`https://ko3ch.github.io/DYoWK/`
 
 ## Project Setup instructions
 To use or make changes to this to this project use the following commands:
