@@ -9,6 +9,101 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
 </head>
 <body>
-        
+<div class="container">
+<header>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="jumbotron-fluid text-center">
+                <h1 class="display-4">
+                    DYoWK
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="./images/time-machine-1974990_1920.jpg" height="250px" class="card-image-top">
+                <div class="card-image-overlay">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        About
+                    </h5>
+                        <p>Majority of us don't know what day of the week they were born, and by 
+                            submitting your birthday this app saves you the math steps. Besides that
+                            you get 'Ghana-fied' <span><img src="./images/ghana-1758953.png" width="15px" height="15px"></span> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="./images/man.jpg" alt="" class="card-img-top">
+                <div class="card-image-overlay">
+                    <div class="card-body">
+                        <p>Ghanian culture has in place a child naming sytem where children
+                            are named depending on what day of the week they born. Both male
+                            and female names.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="./images/african-2771092_1920.jpg" height="250px" alt="" class="card-image-top">
+                <div class="card-image-overlay"></div>
+                <h5 class="card-title">
+                        Akan Names
+                </h5>
+                <div class="card-body">
+                    <p>From Sunday to Saturday the names are:</p>
+                    <h6 class="card-subtitle">Male</h6>
+                    <p>Sunday-Kwasi, M-Kwadwo, T-Kwabena, W-Kwaku, TH-Yaw, F-Kofi, ST-Kwame</p> 
+                    <h6 class="card-subtitle">Female</h6> 
+                    <p>Sunday-Akosua, M-Adwoa, T-Abenna, W-Akua, TH-Yaa, F-Afua, ST-Ama</p> 
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col">
+        <form id="myForm">
+            <div class="form-row">
+                <h5 style="font-style: italic;">
+                Get your Akan name.
+                </h5>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="b-day">Your birthday: </label>
+                    <input type="date" id="b-day">
+                </div>
+                <div class="form-check col-sm-6">
+                    <input type="radio" class="form-check-input" id="ak-radio" name="ak-rad">
+                    <label for="ak-radio" class="form-check-label">
+                        male
+                    </label>
+                    <input type="radio" class="form-check-input" id="ak-radio1" name="ak-rad">
+                    <label for="ak-radio1" class="form-check-label">
+                        female
+                    </label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-12 text-center">
+                    <button type="submit" id="but" onclick="checkDay()" class="btn btn-primary">check</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</main>
+<hr>
+</div>
 </body>
 </html>
