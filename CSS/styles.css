@@ -1,0 +1,38 @@
+
+.jumbotron-fluid {
+    font-family: fantasy;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color:antiquewhite;
+}
+.card {
+    height: 100%;
+} 
+.card-image-top {
+    justify-content: center;
+}
+form {
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-check-input{
+    display: block;
+}
+.form-check-label {
+    display: block;
+}
+.form-row, h5 {
+    padding: 20px;
+}
+.btn {
+    justify-content: center;
+}
+#ak-p {
+    color: antiquewhite;
+    font-size: large;
+    font-family: fantasy;
+}
+#b-day {
+    background-color: antiquewhite;
+}
