@@ -22,7 +22,6 @@ function checkDay(){
 
     if(document.getElementById('ak-radio').checked === false && document.getElementById('ak-radio-1').checked === false)
     alert("Empty field!!");
-
     else if(document.getElementById('ak-radio').checked === true) 
         for(var i = 0; i <= arrMale.length; i++){
             if(dayOfTheWeek === i) alert("Hey " + arrMale[i] + ".");
