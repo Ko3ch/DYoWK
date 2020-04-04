@@ -20,14 +20,14 @@ function checkDay(){
     var arrMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
     var arrFemale = ['Akosua', 'Adwoa', 'Abenna', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
-    if(document.getElementsByClassName('form-check-input').checked === false || document.getElementById("b-day").checked === false)
+    if(document.getElementById('ak-radio').checked === false && document.getElementById('ak-radio-1').checked === false)
     alert("Empty field!!");
 
-    else if(document.getElementById('ak-radio').checked)
+    else if(document.getElementById('ak-radio').checked === true) 
         for(var i = 0; i <= arrMale.length; i++){
             if(dayOfTheWeek === i) alert("Hey " + arrMale[i] + ".");
         }
-    else if(document.getElementById('ak-radio1').checked)
+    else if(document.getElementById('ak-radio-1').checked === true)
         for(var j = 0; j <= arrFemale.length; j++){
                 if(dayOfTheWeek === j)
                     alert("Hello " + arrFemale[j] + ".");
