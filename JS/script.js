@@ -1,5 +1,3 @@
-//document.getElementById("but").addEventListener("click", checkDay); 
-
 function checkDay(){
 
     var c = parseInt(document.getElementById("b-day").value.slice(0,2));
@@ -20,9 +18,9 @@ function checkDay(){
         
 
     var arrMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-    var arrFemale = ['Akosua', 'Adwoa', 'Abenna', 'Akua', 'Yaa', 'Afua', 'Ama']
+    var arrFemale = ['Akosua', 'Adwoa', 'Abenna', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
-    if(document.getElementsByClassName('form-check-input').checked === false || document.getElementById("b-day").value === null)
+    if(document.getElementsByClassName('form-check-input').checked === false || document.getElementById("b-day").checked === false)
     alert("Empty field!!");
 
     else if(document.getElementById('ak-radio').checked)
